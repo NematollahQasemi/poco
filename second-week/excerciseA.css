@@ -1,0 +1,20 @@
+h1 {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+
+}
+#cs {
+    text-shadow: 2px 2px 5px red;
+    text-decoration: underline red;
+    letter-spacing: 3px;
+}
+#s {
+    text-shadow: yellow 2px 2px 5px;
+
+}
+#cs, #s {
+    text-transform: uppercase;
+}
+#group, #check {
+    text-transform: capitalize;
+}
