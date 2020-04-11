@@ -1,4 +1,89 @@
+html {
+    background-color: gray;
+}
 input {
     float: right;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 2px solid gray;
+    margin-bottom: 1px solid gray;
+    padding-bottom: 1px solid gray;
+    cursor: pointer;
+}
+body {
+    background-color: white;        
+    border: 3px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    line-height: 1.5rem;
+ }
+
+
+}  
+.required {
+    color: red;
+}
+
+button {
+    background-color: rgb(180, 33, 33);
+    color: white;
+    border-radius: 3px;
+    border: 2px;
+    padding: 10px;
+    float: right;
+    margin: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+h1 {
+    text-decoration: overline;
+}
+input[type=radio] {
+    display: none;
+    margin: 10px;
+    cursor: pointer;
+    float: right;
+
+}
+input[type=radio] + label {
+    display: inline-block;
+    margin: -2px;
+    padding: 4px 12px;
+    background-color:gray;
+    border-color: #d0d0d0;
+    float: right;
+    cursor: pointer;
+}
+input[type=radio]:checked + label {
+    background-image: none;
+    background-color: orange;
+    cursor: pointer;
+}
+
+}
+#GeschlechtW, #GeschlechtM {
+    width: 25%;
+}
+#Hn.class {
+    width: 20%;
     
-}       
+}
+#Adress {
+    width: 30%;
+    margin-right: 2px;
+}
+#PLZ {
+    width: 20%;
+    
+}
+#Ort {
+    width: 30%;
+    margin-right: 2px;
+    Hn.class {
+    width: 20%;
+    
+}
+#Land {
+    width: 100%;
+}
