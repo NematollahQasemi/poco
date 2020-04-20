@@ -1,0 +1,25 @@
+body {
+    box-sizing: border-box;
+}
+header {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRsuvaskcNq3EIdZEidP0TuwIFFR-eKE-M3V23uTlSH3cMGPRyc&usqp=CAU);
+    margin: 5px;
+}
+.nav img {
+    float: left;
+}
+.nav a {
+    float: right;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.hi {
+    text-align: center;   
+}
+
+.first section{
+    float: left;
+}
+.first aside {
+    float: right;
+}

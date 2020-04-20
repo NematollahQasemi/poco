@@ -1,6 +1,13 @@
 html {
     background-color: gray;
 }
+body {
+    background-color: white;        
+    border: 3px solid lightgray;
+    padding: 20px;
+    margin: 5px;
+    line-height: 1.5rem;
+ }
 input {
     float: right;
     border: none;
@@ -10,17 +17,8 @@ input {
     margin-bottom: 1px solid gray;
     padding-bottom: 1px solid gray;
     cursor: pointer;
+    width: 50%;
 }
-body {
-    background-color: white;        
-    border: 3px solid lightgray;
-    padding: 10px;
-    margin: 10px;
-    line-height: 1.5rem;
- }
-
-
-}  
 .required {
     color: red;
 }
@@ -44,10 +42,12 @@ input[type=radio] {
     margin: 10px;
     cursor: pointer;
     float: right;
+    box-sizing: content-box;
+
 
 }
 input[type=radio] + label {
-    display: inline-block;
+    display: block;
     margin: -2px;
     padding: 4px 12px;
     background-color:gray;
@@ -60,30 +60,19 @@ input[type=radio]:checked + label {
     background-color: orange;
     cursor: pointer;
 }
-
-}
 #GeschlechtW, #GeschlechtM {
     width: 25%;
+    margin: 2px;
 }
-#Hn.class {
-    width: 20%;
-    
+#HNr, #Adress {
+    width: 25%;
+    margin: 2px;
 }
-#Adress {
-    width: 30%;
-    margin-right: 2px;
+#PLZ, #Ort {
+    width: 25%;
+    margin: 2px;
 }
-#PLZ {
-    width: 20%;
-    
-}
-#Ort {
-    width: 30%;
-    margin-right: 2px;
-    Hn.class {
-    width: 20%;
-    
-}
-#Land {
-    width: 100%;
+#Kanton, #Land {
+    width: 25%;
+    margin: 2px;
 }
